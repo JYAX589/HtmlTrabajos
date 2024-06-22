@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(assets/fonts/Oswald/Oswald-Bold.ttf);
+}
+
+body{
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    background-image:url('/assets/image/fondoIndex.jpg');
+    background-size:cover;
+}
+
+
+caption, thead{
+    color: black;
+}
+
+.anav{
+    font-size: Oswald;
+    color:white;
+    text-decoration: none;
+}
+
+.Caption1{
+    color: black;
+}
+
+.ulnav{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+}
+
+nav{
+    background-color: #333;
+    padding: 15px;
+}
+
+.linav{
+    padding-right: 30px;
+}
+
+.tableContainer{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin: 40px;
+}
+
